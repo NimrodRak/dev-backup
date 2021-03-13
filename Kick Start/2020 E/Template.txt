@@ -1,0 +1,15 @@
+#include <iostream>
+
+static int array[size];
+static void solve(int case_num)
+{
+	
+	std::cout << "Case #" << case_num << ": " << res << std::endl;
+}
+
+int main()
+{
+	int T; std::cin >> T;
+	for (int i = 0; i < T; ++i)
+		solve(i + 1);
+}
